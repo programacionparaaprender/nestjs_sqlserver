@@ -22,6 +22,15 @@
 ### 5. S02-CL02: Primeros pasos: instalación NestJS
 >- https://docs.nestjs.com/first-steps
 >- https://nodejs.org/es/
+>- https://docs.nestjs.com/
+>- nvm install 10.15.1 x64
+>- nvm use 10.15.1
+>- $ npm i -g @nestjs/cli
+>- $ nest new project-name
+>- node @nestjs/schematics:application --name=nestjs --directory=undefined --no-dry-run --no-skip-git --no-strict --package-manager="npm" --collection="@nestjs/schematics" --language="ts"
+>- node @nestjs/schematics:application --name=nestjs --directory=undefined --no-dry-run --no-skip-git --no-strict --package-manager="npm" --collection="@nestjs/schematics" --language="ts"
+>- $ cd project-name
+>- $ npm run start
 
 ### 6. S02-CL03: Instalando XAMPP para base de datos
 >- https://www.apachefriends.org/es/
@@ -29,7 +38,7 @@
 
 ### 7. S02-CL04: Entorno de desarrollo: Visual Studio
 >- https://code.visualstudio.com/
-
+>- Vscode NestJs Snippets
 
 ## Sección 3: Desarrollo API con NestJS
 
@@ -75,19 +84,10 @@
 
 
 
-
-https://docs.nestjs.com/
-$ npm i -g @nestjs/cli
-$ nest new project-name
-$ cd project-name
-$ npm run start
-Alternatively, to install the TypeScript starter project with Git:
-
-
-$ git clone https://github.com/nestjs/typescript-starter.git project
-$ cd project
-$ npm install
-$ npm run start
+>- $ git clone https://github.com/nestjs/typescript-starter.git project
+>- $ cd project
+>- $ npm install
+>- $ npm run start
 
 --------------------
 8. Peticiones
