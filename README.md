@@ -1,75 +1,165 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+## cursos
+>- https://www.udemy.com/course/nestjs-free/learn/lecture/13696784?start=0#overview
 
-[travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
-[travis-url]: https://travis-ci.org/nestjs/nest
-[linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
-[linux-url]: https://travis-ci.org/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://api.travis-ci.org/nestjs/nest.svg?branch=master" alt="Travis" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://img.shields.io/travis/nestjs/nest/master.svg?label=linux" alt="Linux" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#5" alt="Coverage" /></a>
-<a href="https://gitter.im/nestjs/nestjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/nestjs/nestjs.svg" alt="Gitter" /></a>
-<a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
-  <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Sección 1: Introducción
 
-## Description
+### 1. S01-CL01: Presentación del curso
+>- https://github.com/javascript-cursos/nestjs
+>- https://aprendiendo-js.netlify.app/
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### 2. S01-CL02: Plataforma Udemy y cómo formular preguntas
+>-
 
-## Installation
+### 3. S01-CL03: Valoración del curso
+>- 
 
-```bash
+## Sección 2: Introducción y preparación del Entorno de Desarrollo
+
+### 4. S02-CL01: Qué es NestJS
+>- https://docs.nestjs.com/
+>- https://nestjs.com/
+
+### 5. S02-CL02: Primeros pasos: instalación NestJS
+>- https://docs.nestjs.com/first-steps
+>- https://nodejs.org/es/
+
+### 6. S02-CL03: Instalando XAMPP para base de datos
+>- https://www.apachefriends.org/es/
+
+
+### 7. S02-CL04: Entorno de desarrollo: Visual Studio
+>- https://code.visualstudio.com/
+
+
+## Sección 3: Desarrollo API con NestJS
+
+### 8. S03-CL01: Configurando el proyecto
+>- https://docs.nestjs.com/first-steps
+
+
+### 9. S03-CL02: Controladores
+>- https://docs.nestjs.com/controllers
+
+
+### 10. S03-CL03: Configuración conexión a base de datos (MySQL)
+>- https://docs.nestjs.com/techniques/database
+
+
+### 11. S03-CL04: Declaración de entidades
+>- https://docs.nestjs.com/techniques/database
+
+### 12. S03-CL05: Repositorios y Proveedores
+>- https://docs.nestjs.com/techniques/database
+>- https://docs.nestjs.com/providers
+
+### 13. S03-CL06: Inyección de dependencias
+
+## Sección 4: Consumo de API
+>- https://docs.nestjs.com/providers
+
+
+### 14. S04-CL01: Instalación de Postman
+>- https://www.postman.com/
+
+
+### 15. S04-CL02: Petición POST en Postman
+
+### 16. S04-CL03: Petición GET en Postman
+
+### 17. S04-CL04: Petición PUT en Postman
+
+### 18. S04-CL05: Petición DELETE en Postman
+
+### 19. S04-CL06: Consumiendo la API desde aplicación Android
+
+
+
+
+
+https://docs.nestjs.com/
+$ npm i -g @nestjs/cli
+$ nest new project-name
+$ cd project-name
+$ npm run start
+Alternatively, to install the TypeScript starter project with Git:
+
+
+$ git clone https://github.com/nestjs/typescript-starter.git project
+$ cd project
 $ npm install
-```
-
-## Running the app
-
-```bash
-# development
 $ npm run start
 
-# watch mode
-$ npm run start:dev
+--------------------
+8. Peticiones
+---------------------
+Post
+localhost:3000/mensajes/
+{
+	"nick":"Miguel",
+    "mensaje":"Este es un mensaje"
+}
 
-# production mode
-$ npm run start:prod
-```
+Get
+localhost:3000/mensajes?id=1
+localhost:3000/mensajes/
 
-## Test
+Put
+localhost:3000/mensajes/1
+{
+	"nick":"Miguel 2",
+    "mensaje":"Este es un mensaje 2"
+}
 
-```bash
-# unit tests
-$ npm run test
+Delete
+localhost:3000/mensajes/1
 
-# e2e tests
-$ npm run test:e2e
+-
+7. Provider
+--------------------
+https://docs.nestjs.com/providers
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+-------------
+6. repositorio y proveedores
+---------------------------
+https://docs.nestjs.com/cli/usages
+nest g service mensajes
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+--------------------
+5. Declaración de entidades
+-----------------------------
+nest g class mensajes/mensaje
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+--------------------
+4. Conexión a base de datos
+-----------------------------
+https://docs.nestjs.com/techniques/database
+npm install --save @nestjs/typeorm typeorm mysql
 
-## License
 
-  Nest is [MIT licensed](LICENSE).
+-------------------
+3. Controllers
+-------------------
+https://docs.nestjs.com/controllers
+nest generate controller cats
+nest generate controller mensajes
+nest generate class mensajes/dto/create-mensaje-dto
+
+-----------
+2. Extensiones de visual studio code
+------------
+Vscode NestJs Snippets
+
+
+------------------
+1.
+---------------
+
+xampp
+
+nest
+app
+
+
+CREATE USER 'nest'@'localhost' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON *.* TO 'nest'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;GRANT ALL PRIVILEGES ON `sendmeanapp_db`.* TO 'nest'@'localhost';
