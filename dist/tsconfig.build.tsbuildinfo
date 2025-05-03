@@ -3196,14 +3196,14 @@
         "signature": "c0bc39c42b060b4403c36542450473440ffeb57c8b94f9fd3110a846e84fa48c",
         "affectsGlobalScope": false
       },
-      "../src/app.module.ts": {
-        "version": "21980bbe432a1c1990cf899f1ce6cc2854d4695be7bec2012406b38edc4be51a",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
-        "affectsGlobalScope": false
-      },
       "../src/environments/environment.dev.ts": {
         "version": "dfb095d76ba3a1adf9d180b427e25ce1cc18e2b82eb39275376565cd6ace05f5",
         "signature": "b17dcd81630d536e0c6f2c1726b8596e60b5176a0718ae589e1eda6bf0ce6c07",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "695b090762afe754f2ecea8e7b6a7251b1bb7c61072d4c8aaf80c04048793c7e",
+        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
       "../src/app2.module.ts": {
@@ -6416,6 +6416,7 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/cats/cats.controller.ts",
+        "../src/environments/environment.dev.ts",
         "../src/mensajes/entities/mensaje.entity.ts",
         "../src/mensajes/mensajes.controller.ts",
         "../src/mensajes/mensajes.service.ts"

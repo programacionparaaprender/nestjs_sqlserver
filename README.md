@@ -26,6 +26,9 @@
 >- nvm install 10.15.1 x64
 >- nvm use 10.15.1
 >- $ npm i -g @nestjs/cli
+>- nvm uninstall 10.15.1
+>- nvm install 10.15.1 x32
+>- nvm use 10.15.1 
 >- $ nest new project-name
 >- node @nestjs/schematics:application --name=nestjs --directory=undefined --no-dry-run --no-skip-git --no-strict --package-manager="npm" --collection="@nestjs/schematics" --language="ts"
 >- node @nestjs/schematics:application --name=nestjs --directory=undefined --no-dry-run --no-skip-git --no-strict --package-manager="npm" --collection="@nestjs/schematics" --language="ts"
